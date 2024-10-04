@@ -1,0 +1,32 @@
+
+.tabs-container{
+    max-width: 610px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: var(--c-yellow-10);
+}
+
+.tab-content{
+    overflow: hidden;
+    transition: var(--default-trans);
+    font-family:  "Puvi_Bold";
+}
+.tab-list.tab-opened{
+    background-color: var(--c-white);
+    border-left-color:  var(--c-navy-blue);
+}
+
+.tab-list .tab-content{
+    height: 0;
+}
+.tab-content-in{
+    padding: 20px 10px;
+}
+.tab-list{
+    border-bottom: 1px solid var(--c-grey-20);
+    border-left: 2px solid transparent;
+}
+.tab-list:last-child{
+    border-bottom: none;
+}

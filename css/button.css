@@ -1,0 +1,20 @@
+
+.btn{ 
+    display: inline-block;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    background: transparent;
+    transition: var(--default-trans);
+    cursor: pointer;
+}
+
+.tab-btn{
+    padding: 10px 20px;
+    color: var(--c-navy-blue);
+    background: var(--c-grey-10);
+}
+.tab-btn:hover{
+    background-color: var(--c-lite-white);
+}
